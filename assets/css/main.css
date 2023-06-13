@@ -1,0 +1,32 @@
+.header {
+    height: 120px;
+    background-color: #003d29;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__navbar-item {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 0 20px; 
+}
+
+.header__navbar-item:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.header__bar {
+    
+    
+}
