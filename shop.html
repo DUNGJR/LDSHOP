@@ -35,19 +35,40 @@
                     <div class="header__name">LDSHOP</div>
 
                     <div class="header__search">
-                        <input type="text" class="header__search-input" placeholder="Search Product">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Search Product">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">iphone 14 promax</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">áo thun nam</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         <button class="header__search-btn">
                             <i class="header__search-icon fa-solid fa-magnifying-glass"></i>
                         </button>
                     </div>
 
-                    <ul class="header__bar-list">
-                        <li class="header__bar-item">
+                    <ul class="header__list">
+                        <li class="header__account">
                             <i class="fa-regular fa-user"></i>
-                            Account</li>
-                        <li class="header__bar-item">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            Cart</li>
+                            <a href="" class="header__account-item">Account</a>    
+                        </li>
+                        <li class="header__cart">
+                            <div class="header__cart-wrap">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Cart
+                                <span class="header__cart-notice">3</span>
+                                <div class="header__cast-list header__cast-list--no-cart">
+                                    <img src="./assets/img/empty-cart.webp" alt="" class="header__cast--no-cart-img">
+                                </div> 
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </div>
