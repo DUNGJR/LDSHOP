@@ -538,7 +538,9 @@ i.home-product-item__like-icon-fill {
     color: var(--star-gold);
 }
 
-
+.home-product__pagination {
+    margin: 0 0 50px;
+}
 
 
 
