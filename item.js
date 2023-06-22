@@ -1,23 +1,11 @@
-
-var  imgFeature = document.querySelector(".img-feature")
-var  listImg = document.querySelectorAll(".list img")
-var  nextBtn = querySelector(".control__next")
-var  preBtn = querySelector(".control__pre")
-
-var currentIndex = 0;
-
-function updateImageByIndex(index){
-    currentIndex = index
-    imgFeature.src = listImg(index).getAttribute('src')
-}
+var imgFeature = document.querySelector('.img-feature')
+var listImg = document.querySelectorAll('.LeftBlock_list img')
+var preBtn = document.querySelector('.control__pre')
+var nextBtn = document.querySelector('.control__next')
 
 listImg.forEach(imgElement=>{
-
     imgElement.addEventListener('click', e=>{
-        updateImageByIndex(index)
-    })
+        imgFeature.src = e.target.getAttribute('src')
+    } )
 })
 
-preBtn.addEventListener('click', e=>{
-
-})
