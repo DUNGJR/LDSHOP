@@ -28,7 +28,7 @@
 
 
 .active{
-    background: #8b0516;
+    background: #fc919f;
 }
 
 .control{
@@ -37,6 +37,7 @@
     font-size: 50px;
     color: white;
     display: flex;
+    cursor: pointer;
 }
 
 ion-icon {
@@ -73,8 +74,8 @@ ion-icon {
 
 
 .listitem{
-    padding: 20px;
-    background:azure;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .listitem + .listitem{
