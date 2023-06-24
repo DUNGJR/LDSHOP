@@ -221,5 +221,8 @@ ion-icon {
     margin-left: 20px;
 }
 
+ion-icon {
+    color: rgb(95, 95, 95);
+  }
 
 
