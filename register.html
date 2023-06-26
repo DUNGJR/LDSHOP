@@ -141,40 +141,38 @@
     <section>
         
         <div class="form-box">
-            <form action="">
-                <h1>Login</h1>
+            <div action="">
+                <h1>Register</h1>
                 <div class="form-group">
                     <ion-icon name="person-outline"></ion-icon>
-                    <input type="text" class="form-input" placeholder=" ">
+                    <input type="text" class="form-input" placeholder=" " id="email" name="email">
                     <label for="" class="form-label" >User Name </label>
                 </div>
                 <div class="form-group">
                     <ion-icon name="keypad-outline"></ion-icon>
-                    <input type="password" class="form-input" placeholder=" ">
+                    <input type="password" class="form-input" placeholder=" " id="password" name="password">
                     <label for="" class="form-label" >Password</label>
                 </div>
                 <div class="form-group">
                     <ion-icon name="repeat-outline"></ion-icon>
-                    <input type="password" class="form-input" placeholder=" ">
+                    <input type="password" class="form-input" placeholder=" " id="passwordConfirm" name="passwordConfirm">
                     <label for="" class="form-label" >Confirm Your Password</label>
                 </div>
                 <div class="remember-checkbox">
                     <label for=""><input type="checkbox">Remember Me</label>
                     <a href="#">Forgot your password?</a>
                 </div>
-                <div class="button">
+                <div class="button-register">
                     
-                    <button>
-                        Login
+                    <button id="register-btn">
+                        Register
                         <ion-icon name="log-in"></ion-icon>
                     </button>
                 </div>
-                
-    
                 <div class="Register">
                     <p>Have an account ? <a href="login.html">Login Now</a></p>
                 </div>
-            </form>
+            </div>>
             </div>
         
         
@@ -273,11 +271,13 @@
         
     
     
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
     
 </body>
 
+
+
 </html>
+
+<script  src="Register.js" type="module"></script>
